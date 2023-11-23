@@ -1,0 +1,232 @@
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.no-data-Img {
+  height: 400px;
+  width: 400px;
+}
+.no-data-div {
+  margin: auto;
+}
+
+.value-div-inner {
+  display: inline-block;
+  margin: 15px 3px 10px 15px;
+}
+
+.selected-filter {
+  margin: 1em;
+}
+
+.jobs-details-card {
+  position: relative;
+  height: auto !important;
+  width: 440px !important;
+  margin: auto !important;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  z-index: 1;
+  /* margin-left: 340px !important; */
+}
+.ctc-button {
+  /* margin-top: 10px; */
+  pointer-events: none;
+  background-color: white;
+  color: black;
+}
+
+.image-col {
+  width: 150px !important;
+  /* display: inline-block !important; */
+}
+.company-logo {
+  height: auto;
+  width: 150px;
+}
+
+
+.joblist-card {
+  margin-left: 90px !important;
+}
+.leftmost-card {
+  margin-left: 380px !important;
+}
+
+.descr-col {
+  border-left: 5px;
+  border-color: black;
+}
+
+.job-descr {
+  font-size: 25px;
+  text-align: left;
+}
+
+.job-length {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.card-text {
+  font-size: larger;
+  margin-bottom: 10px !important;
+}
+
+.job-count {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.pill {
+  width: 100%;
+  padding: 10px;
+}
+
+.card-top-content {
+  height: auto;
+}
+
+.border {
+  /* border-radius: 25px !important; */
+  border-color: black !important;
+}
+
+.content {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.icon {
+  display: inline-block;
+}
+
+/* .lower-card-content {
+  border-style: solid;
+  border-top: 1px solid #475649;
+} */
+
+
+.container p {
+  margin-bottom: 0;
+}
+
+
+/* --filter CSS-- */
+
+.wrapper {
+  margin: auto;
+  margin-top: 100px;
+}
+
+.search-container {
+  width: 500px;
+  margin: 1em 0;
+}
+
+.search-container input {
+  background-color: transparent;
+  margin-left: 1em;
+  border-bottom: 2px solid #47a992;
+  /* padding: 1em 0.3em; */
+}
+
+.search-container input:focus {
+  border-bottom-color: #47a992;
+}
+
+.filter-btn {
+  margin-left: 1em;
+}
+
+.dropdown-filter {
+  position: absolute;
+  z-index: 2;
+  margin-top: 8px;
+  width: 180px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.dropdown-filter::before {
+  content: "";
+  position: absolute;
+  top: -0.7rem;
+  left: 1.1rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.dropdown-filter.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 500ms ease;
+}
+
+.dropdown-filter.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 500ms ease;
+}
+
+.job-filter-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-divider {
+  border: 1px solid rgb(244, 244, 244);
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    /* position: relative; */
+    margin: auto;
+    margin-top: 60px;
+  }
+  .jobs-details-card {
+    width: 400px !important;
+    margin: auto !important;
+    margin-top: 25px !important;
+    margin-bottom: 20px !important;
+  }
+  .image-col {
+    margin: auto;
+  }
+  .job-count {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .job-length {
+    margin-top: 10px;
+  }
+  .count-heading {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .value-div-inner {
+    margin-left: 5px;
+  }
+  .no-data-div{
+    margin-top: 15px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+  .search-container {
+    width: 240px;
+  }
+  .filter-btn {
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+}

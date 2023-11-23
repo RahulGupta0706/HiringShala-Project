@@ -1,0 +1,94 @@
+.uploaded-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* max-width: 180px; */
+  width: 215px;
+  height: 3em;
+  max-height: 2.75em;
+  background: #0a2647;
+  border-radius: 1.875em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-left: 2%;
+  font-size: 1.2em;
+  margin-bottom: 2%;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.5s;
+}
+
+.choose-file-button:hover,
+.upload-button:hover,
+.uploaded-button:hover {
+  background-color: #087572;
+}
+
+@media (max-width: 639px) {
+  .uploaded-button {
+    width: 100%;
+    max-width: none;
+    font-size: 0.9em;
+  }
+  @media (max-width: 768px) {
+    .uploaded-button {
+      width: 100%;
+      max-width: 140px;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .uploaded-button {
+      font-size: 12px;
+    }
+  }
+
+  /* Rest of your CSS styles for the media query */
+  .upload-button {
+    background-color: #6b7280;
+    border-color: #6b7280;
+  }
+  .has-file {
+    background-color: #f59e0b;
+    border-color: #f59e0b;
+  }
+  .has-error {
+    background-color: #ef4444;
+    border-color: #ef4444;
+  }
+  .sm\:rounded {
+    border-radius: 9999px;
+  }
+  .uploaded-button {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    max-height: 2.75em;
+    background: #0a2647;
+    border-radius: 1.875em;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-left: 2%;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s;
+  }
+
+  .choose-file-button:hover,
+  .upload-button:hover,
+  .uploaded-button:hover {
+    background-color: #087572;
+  }
+}
