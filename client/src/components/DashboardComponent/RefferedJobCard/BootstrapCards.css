@@ -1,0 +1,206 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clock-icon {
+  font-size: 15px;
+  color: #440bf1;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.doller-icon {
+  font-size: 20px;
+  display: inline-block;
+
+  color: #1e1e1e;
+}
+
+.card-button {
+  background-color: #2f8f9d;
+  color: white;
+}
+
+.card-button:hover {
+  background-color: #246a74;
+  color: white;
+}
+
+.card-content {
+  text-align: center;
+  color: var(--card-text) !important;
+}
+
+/* .card-container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 24px;
+} */
+
+.card-img-top {
+  height: 500px;
+  width: 500px;
+}
+
+/* .card {
+  transition: all 0.3s;
+  width: 20rem !important;
+  border-top-color: #2f8f9d !important;
+  border-left-color: var(--card-border) !important;
+  border-right-color: var(--card-border) !important;
+  border-bottom-color: var(--card-border) !important;
+  background-color: var(--card-bg);
+  display: flex;
+}
+@media (hover: hover) {
+  .card:hover {
+    transform: scale(1.11);
+    z-index: 1;
+  }
+} */
+/* new */
+
+@media (max-width: 992px) {
+  /* .card-container .card {
+    flex-basis: calc(100% / 2);
+  } */
+}
+
+.card-wrapper {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .login-btn {
+    height: 35px;
+    width: 80px;
+  }
+  .card {
+    margin: auto;
+  }
+}
+.clock-icon {
+  font-size: 15px;
+  color: #440bf1;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dollar-icon {
+  font-size: 20px;
+  display: inline-block;
+  color: #1e1e1e;
+}
+
+.user-cards-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.RefferedjobButton {
+  height: 44px;
+  width: 120px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  background-color: #2f8f9d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  margin-right: 15px;
+}
+
+.RefferedjobButton:hover {
+  background-color: #a7bba8;
+}
+
+@media (max-width: 768px) {
+  .RefferedjobButton {
+    width: 80%;
+    max-width: 120px;
+    height: 40px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .RefferedjobButton {
+    font-size: 12px;
+    width: 75%;
+    max-width: 120px;
+    height: 40px;
+  }
+}
+
+.card-button {
+  background-color: #2f8f9d;
+  color: white;
+}
+
+.card-button:hover {
+  background-color: #246a74;
+  color: white;
+}
+
+.card-content {
+  text-align: center;
+  color: var(--card-text) !important;
+}
+
+.card-img-top {
+  height: 500px;
+  width: 500px;
+}
+.card-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* .card {
+  transition: all 0.3s;
+  width: 20rem !important;
+  border-top-color: #2f8f9d !important;
+  border-left-color: var(--card-border) !important;
+  border-right-color: var(--card-border) !important;
+  border-bottom-color: var(--card-border) !important;
+  background-color: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: scale(1.11);
+    z-index: 1;
+  }
+} */
+
+@media (max-width: 992px) {
+  /* .card-container .card {
+    flex-basis: calc(100% / 3);
+  } */
+}
+
+.card-wrapper {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .login-btn {
+    height: 35px;
+    width: 80px;
+  }
+  .card {
+    margin: auto;
+  }
+}

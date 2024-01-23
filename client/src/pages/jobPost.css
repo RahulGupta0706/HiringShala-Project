@@ -1,0 +1,254 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-row input,
+.input-row textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+    .form-group {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .label-container {
+        width: 50%;
+    }
+
+    .input-container {
+        width: 50%;
+    }
+
+    .input-row {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .form-group {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .label-container {
+        width: 30%;
+    }
+
+    .input-container {
+        width: 70%;
+    }
+
+    .input-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 150px;
+    }
+
+    .input-row input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.addJobText {
+    color: var(--tertiary-color);
+}
+
+.body-container {
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .checkbox-container-empType {
+        width: 100%;
+    }
+
+    .checkbox-content {
+        width: 100%;
+    }
+}
+
+.checkbox-content {
+    margin-bottom: 20px;
+}
+
+.checkbox-content:hover {
+    background-color: #f5f5f5;
+}
+
+.checkbox-container-empType:hover .allcheckbox {
+    color: black;
+}
+
+.checkbox-container-SalType:hover .allcheckbox {
+    color: black;
+}
+
+.checkbox-input:checked+.allcheckbox {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .flex-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+    }
+
+    .employmentType {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 10px;
+    }
+
+    .checkbox-container-empType {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 768px) {
+    .flex-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .salaryBox {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 10px;
+    }
+
+    .col-md-6.offset-lg-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.checkbox-input:checked+.allcheckbox {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .saveDraft {
+        flex-grow: 1;
+        border-radius: 10px 5px 0 0;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    .postJob {
+        flex-grow: 1;
+        border-radius: 0 0 10px 5px;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .saveDraft {
+        border-right: none;
+    }
+
+    .postJob {
+        border-left: none;
+    }
+
+    .btn:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 767px) {
+    .saveDraft {
+        flex-grow: 1;
+        border-radius: 10px 5px 0 0;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-right: 10px;
+    }
+
+    .postJob {
+        flex-grow: 1;
+        border-radius: 10px 10px 10px 10px;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .addJobText {
+        margin-right: 10px;
+    }
+}
+
+.required-field {
+    color: red;
+    font-size: 12px;
+}
+
+.custom-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post-job-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 262px;
+    height: 55px;
+    color: white;
+    margin-top: 6px;
+    background-color: #47A992;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.empContentbox {
+    margin-bottom: 20px;
+}
