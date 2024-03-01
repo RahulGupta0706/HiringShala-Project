@@ -10,6 +10,10 @@
   --card-border: black;
   --primary-text-color: hsl(166, 77%, 22%);
   --div-color: rgb(17, 94, 89);
+  --quarternary-color:#6E4C3E;
+  --sub-heading-color:#6c5b5b;
+  --about-us-text-color:rgb(55 65 81);
+  --about-us-stats-desc-color:rgb(75 85 99);
 }
 
 .dark {
@@ -25,6 +29,10 @@
   --card-border: #2F8F9D;
   --primary-text-color: white;
   --div-color: rgb(17, 94, 89);
+  --quarternary-color:#dd9271;
+  --sub-heading-color:#edcaca;
+  --about-us-text-color:white;
+  --about-us-stats-desc-color:white;
 }
 
 .container-col {
@@ -47,6 +55,29 @@
 
 .contact {
   color: var(--tertiary-color);
+}
+
+.about-us-desc{
+  color: var( --about-us-text-color);
+  /* color: var( --sub-heading-color); */
+}
+.about-us-Headings{
+  color: var(--quarternary-color);
+}
+.about-us-subHeading{
+  color: var( --sub-heading-color);
+}
+.about-us-StatsHeading{
+  color: var(--quarternary-color);
+}
+.about-us-companyTags{
+  color:  var(--tertiary-color);
+}
+.about-us-Stats{
+  color:  var(--tertiary-color);
+}
+.about-us-Stats-desc{
+  color:var( --about-us-stats-desc-color);
 }
 
 /* card css*/
@@ -92,14 +123,14 @@
   background-color: var(--card-bg);
 } */
 
-/* input:-webkit-autofill,
+input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
 
 input[data-autocompleted] {
   background-color: transparent !important;
-} */
+}
 
 /* Hover styles for non-mobile devices */
 /* @media (hover: hover) {

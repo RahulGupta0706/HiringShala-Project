@@ -83,7 +83,7 @@ const LoginForm = ({ userType }) => {
             onChange={changeHandler}
             placeholder="Enter Email address"
             name="email"
-            className="outline-none border-b-[1px] border-black w-full pt-[10px] border-bottom-color bg-transparent "
+            className="outline-none border-b-[1px] border-black w-full pt-[10px]  border-bottom-color bg-transparent "
           />
         </MDBContainer>
       </label>

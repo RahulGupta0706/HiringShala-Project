@@ -73,10 +73,10 @@ const About = () => {
     <div>
          <div className="lg:grid grid-cols-2">
           <div>
-           <h1 className="m-2 ml-2 pl-16 text-[#6E4C3E] font-semibold drop-shadow-xl shadow-gray-700/60">HiringShala</h1>
-           <h6 className="lg:m-2 pl-16 text-[#6c5b5b] italic pb-10">-Building a Better Network of Opportunities</h6>
-           <p className="lg:m-2 m-4 lg:pl-16 text-xl text-gray-700  text-justify">Welcome to <span className="text-2xl font-semibold">HiringShala</span>, where connections meet careers and referrals lead the way. We're not just a hiring company; we're a community-driven platform that believes in the power of relationships to shape the future of work. Our unique approach to talent acquisition centers around the strength of referrals, creating a symbiotic ecosystem where professionals and opportunities unite.</p>
-           <p className="lg:m-2 m-4 lg:pl-16 text-xl text-gray-700 pb-16 text-justify">Elevate your journey with us as we redefine recruitment – where possibilities are sparked by connections, careers are sculpted by collaboration, and success is built on shared trust. Join our transformative mission, and let's pave the path to a brighter professional tomorrow, together.</p>
+           <h1 className="m-2 ml-2 sm:pl-16 pl-4 font-semibold drop-shadow-xl shadow-gray-700/60 about-us-Headings">HiringShala</h1>
+           <h6 className="lg:m-2 sm:pl-16 pl-5 italic pb-10 about-us-subHeading">-Building a Better Network of Opportunities</h6>
+           <p className="lg:m-2 m-4 lg:pl-16 text-xl text-justify about-us-desc">Welcome to <span className="text-2xl font-semibold">HiringShala</span>, where connections meet careers and referrals lead the way. We're not just a hiring company; we're a community-driven platform that believes in the power of relationships to shape the future of work. Our unique approach to talent acquisition centers around the strength of referrals, creating a symbiotic ecosystem where professionals and opportunities unite.</p>
+           <p className="lg:m-2 m-4 lg:pl-16 text-xl pb-16 text-justify about-us-desc">Elevate your journey with us as we redefine recruitment – where possibilities are sparked by connections, careers are sculpted by collaboration, and success is built on shared trust. Join our transformative mission, and let's pave the path to a brighter professional tomorrow, together.</p>
           </div>
           <div>
             <img src={jobSearch} alt="" className="object-scale-down object-top w-full lg:-mb-[750px] -mb-28" />
@@ -88,17 +88,17 @@ const About = () => {
   <div className="-m-1 lg:flex lg:flex-wrap md:-m-5">
     <div className="lg:flex lg:w-1/2 lg:flex-wrap">
       <div className="w-full p-1  bg-gray-100 rounded-3xl drop-shadow shadow-lg">
-      <h4  className="m-2 pl-16 text-[#6E4C3E] italic pt-5 pb-2">Our Mission:</h4>
+      <h4  className="m-2 pl-16 italic pt-5 pb-2 about-us-Headings">Our Mission:</h4>
            <p className="m-2 lg:px-16 md:px-16 sm:px-4 text-sm text-justify text-black">At <span className="text-lg font-semibold">HiringShala</span>, we're on a mission to transform the recruitment landscape. Our mission is twofold: to empower individuals to play an active role in shaping their network and to assist organizations in finding exceptional candidates who align with their values and culture. We strive to create a win-win scenario where both job seekers and employers flourish.</p>
       </div>
       <div className="w-full p-1 md:p-2 bg-gray-100 rounded-3xl drop-shadow shadow-lg ">
-      <h4  className="m-2 pl-16 text-[#6E4C3E] italic pt-5 pb-2">Our Story:</h4>
+      <h4  className="m-2 pl-16 italic pt-5 pb-2 about-us-Headings">Our Story:</h4>
            <p className="m-2 lg:px-16 md:px-16 sm:px-4 text-sm text-justify text-black pb-2">Founded on the belief that the best opportunities often arise through trusted connections, <span className="text-lg font-semibold">HiringShala</span> was born from a vision to revolutionize the way companies hire top-tier talent. Our journey began with the realization that referrals, backed by shared experiences and genuine endorsements, consistently lead to better placements and a more satisfied workforce. We set out to bridge the gap between talent and organizations, fostering a collaborative environment that benefits everyone involved.</p>
       </div>
     </div>
     <div className="lg:flex lg:w-1/2 lg:flex-wrap">
       <div className="w-full p-1 md:p-2 bg-gray-100  rounded-3xl drop-shadow shadow-lg ">
-      <h4 className="m-2 pl-16 text-[#6E4C3E] italic pt-5 pb-2">Why Choose Us:</h4>
+      <h4 className="m-2 pl-16 italic pt-5 pb-2 about-us-Headings">Why Choose Us:</h4>
       <ol  className="m-2 lg:px-16 md:px-16 sm:px-4 text-sm text-justify text-black pb-2">
          <li className="pb-2"><span className="text-md font-semibold">Community-Centric Approach:</span> We understand that behind every referral is a unique story. Our platform encourages professionals to advocate for their peers, fostering a community of support and growth.</li>
          <li className="pb-2" ><span className="text-md font-semibold">Quality Over Quantity:</span> Unlike traditional hiring processes, we prioritize quality over quantity. Each referral is carefully considered, ensuring that both the candidate and the company are a seamless fit.</li>
@@ -107,7 +107,7 @@ const About = () => {
          <li className="pb-2"><span className="text-md  font-semibold">Personalized Experience: </span><span className="text-md font-semibold">HiringShala</span> isn't just a recruitment platform; it's a personalized experience tailored to the needs of each user. We prioritize building meaningful relationships over transactions.</li></ol>
       </div>
       <div className="w-full p-1 md:p-2 bg-gray-100 rounded-3xl drop-shadow shadow-lg">
-      <h4  className="m-2 pl-16 text-[#6E4C3E] italic pt-2 pb-2">Our Promise:</h4>
+      <h4  className="m-2 pl-16 italic pt-2 pb-2 about-us-Headings">Our Promise:</h4>
        <p className="m-2 lg:px-16 md:px-16 sm:px-4 text-sm text-justify text-black pb-2">As you explore <span className="text-lg font-semibold">HiringShala</span>, you'll discover a passionate team dedicated to creating opportunities that drive success. Whether you're a job seeker looking for your next challenge or an organization seeking exceptional talent, we promise to be your partner on this exciting journey. Join us in shaping the future of work, one referral at a time.
         Thank you for being part of the HiringShala community.</p>
       </div>
@@ -116,26 +116,26 @@ const About = () => {
 </div>`
 
 
-<div className="bg-white py-6 sm:py-32 ">
+<div className="bg-transparent py-6 sm:py-32 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-       <h1 className="text-[#6E4C3E] text-center font-semibold ">Building a Better network of Opportunities</h1>
-       <h6 className="text-gray-700 text-center pb-10">Building a Better Tomorrow</h6>
+       <h1 className="text-center font-semibold about-us-StatsHeading">Building a Better network of Opportunities</h1>
+       <h6 className="text-center pb-10 about-us-desc">Building a Better Tomorrow</h6>
         <div className="grid grid-cols-1 gap-x-8 gap-y-8 text-center lg:grid-cols-3">
             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <div className="text-base leading-7 text-gray-600">Active Users</div>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+              <div className="text-base leading-7 about-us-Stats-desc">Active Users</div>
+              <dd className="order-first text-3xl font-semibold tracking-tight sm:text-5xl about-us-Stats">
                 13000+
               </dd>
             </div>
             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <div className="text-base leading-7 text-gray-600">Opportunities</div>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+              <div className="text-base leading-7 about-us-Stats-desc">Opportunities</div>
+              <dd className="order-first text-3xl font-semibold tracking-tight sm:text-5xl about-us-Stats">
                 8.6K+
               </dd>
             </div>
             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <div className="text-base leading-7 text-gray-600">Referrers</div>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+              <div className="text-base leading-7 about-us-Stats-desc">Referrers</div>
+              <dd className="order-first text-3xl font-semibold tracking-tight sm:text-5xl about-us-Stats">
                 800+
               </dd>
             </div>
@@ -143,43 +143,43 @@ const About = () => {
       </div>
     </div>`
 
-    <div className="bg-white pb-32">
+    <div className="bg-transparent pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
+        <h2 className="text-center text-lg font-semibold leading-8 about-us-companyTags">
           Our referrals are from  most innovative teams
         </h2>
          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+            className="col-span-2 max-h-12 w-full object-cover lg:col-span-1 "
+            src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png"
             alt="Transistor"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+            src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
             alt="Reform"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+            className="col-span-2 max-h-12 w-full object-cover lg:col-span-1"
+            src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png"
             alt="Tuple"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
+            className="col-span-2 max-h-12 w-full object-cover sm:col-start-2 lg:col-span-1"
+            src="https://1.bp.blogspot.com/-N8uWKNWQlec/XV6xVl8KNtI/AAAAAAAANQA/b_wC28iV3zswtoahMtWja3uHLAKp_NwIQCLcBGAs/s1600/unnamed.png"
             alt="SavvyCal"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
+            className="col-span-2 col-start-2 max-h-12 w-full object-cover sm:col-start-auto lg:col-span-1"
+            src="https://download.logo.wine/logo/Zoho_Corporation/Zoho_Corporation-Logo.wine.png"
             alt="Statamic"
             width={158}
             height={48}
