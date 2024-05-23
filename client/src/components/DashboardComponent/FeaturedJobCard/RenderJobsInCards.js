@@ -27,7 +27,7 @@ const RenderJobsInCards = ({jobData}) => {
   return (
     <div className="user-cards-container">
       <div className="user-cards-header">
-        <h2 style={{ fontSize: "25px", color: "#111111", fontWeight: "300" }}>
+        <h2 style={{ fontSize: "25px", fontWeight: "300" }}>
           Featured Openings
         </h2>
       </div>

@@ -221,3 +221,12 @@
 .ListedjobButton:hover {
   background-color: #a7bba8;
 }
+
+.details-button{
+  border-color:var(--card-border);
+}
+
+.details-button:hover{
+  border-color:var(--card-border);
+}
+

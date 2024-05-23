@@ -114,7 +114,7 @@ const handleSuccessfulUpload = (seekerId, token) => {
   };
 
   return (
-    <div className>
+    <div className="file-upload">
       {resumeUrl ? (
         <div>
           <div onDrop={handleDrop}>

@@ -160,7 +160,7 @@ const SignupForm = ({ userType }) => {
               onChange={changeHandler}
               placeholder="Enter first name"
               value={formData.firstName}
-              className="outline-none border-b-[1px] border-black w-full p-[2px] bg-transparent border-bottom-color"
+              className="outline-none border-b-[1px]  w-full p-[2px] bg-transparent border-bottom-color"
             />
           </label>
 

@@ -82,7 +82,7 @@ const SeekerJobDetails = ({ userData, jobData }) => {
   return (
     <div className="overflow-x-hidden">
       <div className="AppliedJobHeader">
-        <h2 style={{ fontSize: "25px", color: "#111111", fontWeight: "300" }}>
+        <h2 style={{ fontSize: "25px",fontWeight: "300" }}>
           Applied Opportunities
         </h2>
 

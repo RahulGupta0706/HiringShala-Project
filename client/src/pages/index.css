@@ -14,6 +14,7 @@
   --sub-heading-color:#6c5b5b;
   --about-us-text-color:rgb(55 65 81);
   --about-us-stats-desc-color:rgb(75 85 99);
+  --seeker-job-text-color: #111111;
 }
 
 .dark {
@@ -33,6 +34,7 @@
   --sub-heading-color:#edcaca;
   --about-us-text-color:white;
   --about-us-stats-desc-color:white;
+  --seeker-job-text-color: #47A992;
 }
 
 .container-col {
@@ -91,7 +93,7 @@
   color: white;
 }  */
 
-*/ .card-content {
+ .card-content {
   text-align: center;
   color: var(--card-text) !important;
 }
@@ -125,12 +127,13 @@
 
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
-  transition: background-color 600000s 0s, color 600000s 0s;
-}
+  transition: background-color 600000s 0s,color 600000s 0s;
+  -webkit-text-fill-color:var(--tertiary-color);
+} 
 
-input[data-autocompleted] {
+/* input[data-autocompleted] {
   background-color: transparent !important;
-}
+}  */
 
 /* Hover styles for non-mobile devices */
 /* @media (hover: hover) {
@@ -417,4 +420,8 @@ input {
   .text-xl {
     font-size: 1.2rem;
   }
+}
+
+.AppliedJobHeader h2, .user-cards-header h2{
+  color:var(--seeker-job-text-color);
 }

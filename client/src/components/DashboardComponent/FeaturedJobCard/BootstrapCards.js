@@ -50,22 +50,22 @@ const BootstrapCards = ({ user, ImgSrc }) => {
               </div>
               <div className="value-div-outer">
                 <div className="value-div-inner">
-                  <span className="border border-black rounded-pill pill">
+                  <span className="border border-white rounded-pill pill">
                     {job.jobType}
                   </span>
                 </div>
                 <div className="value-div-inner">
-                  <span className="border border-black rounded-pill pill">
+                  <span className="border rounded-pill pill">
                     Remote
                   </span>
                 </div>
                 <div className="value-div-inner">
-                  <span className="border border-black rounded-pill pill">
+                  <span className="border border-white rounded-pill pill">
                     <MdWork fontSize={15} className="icon" /> 2+yrs
                   </span>
                 </div>
                 <div className="value-div-inner">
-                  <span className="border border-black rounded-pill pill">
+                  <span className="border rounded-pill pill">
                     <MdAttachMoney fontSize={20} className="icon" />
                     CTC {job.expectedPackage}
                   </span>

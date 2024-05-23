@@ -90,7 +90,7 @@ body {
 
 .border {
   /* border-radius: 25px !important; */
-  border-color: black !important;
+  border-color: var(--card-border) !important;
 }
 
 .content {
@@ -229,4 +229,16 @@ body {
     margin-top: 2px;
     margin-bottom: 5px;
   }
+}
+
+b{
+color: var(--card-text);
+}
+
+.card-content{
+  color: var(--card-text) !important;
+}
+
+.job-descr,.card-text,.value-div-inner span,hr{
+  color:var(--home-text);
 }
