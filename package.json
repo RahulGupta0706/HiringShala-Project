@@ -9,7 +9,8 @@
     "dev": "concurrently \"npm run client\" \"npm run server\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "supervisor server/src/index.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "vercel-build": "cd client && npm install && CI=false npm run build"
   },
   "author": "Rahul Gupta",
   "license": "ISC",
