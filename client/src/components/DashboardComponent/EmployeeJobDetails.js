@@ -31,7 +31,7 @@ const EmployeeJobDetails = ({userData,jobData}) => {
         );
   
         const newJobDetails = filteredJobs.map((job) => {
-          const appliedJob = resolvedUserData.listOfJobsPosted.find(
+          const _appliedJob = resolvedUserData.listOfJobsPosted.find(
             (appliedJob) => appliedJob.jobId === job._id
           );
           return {

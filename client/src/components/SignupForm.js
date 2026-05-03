@@ -82,7 +82,7 @@ const SignupForm = ({ userType }) => {
   function submitHandler(event) {
     event.preventDefault();
     setButtonLoadin(true);
-    if (formData.changePassword !== formData.confirmPassword) {
+    if (formData.password !== formData.confirmPassword) {
       toast.error("Passwords do not match");
       setButtonLoadin(false);
       return;

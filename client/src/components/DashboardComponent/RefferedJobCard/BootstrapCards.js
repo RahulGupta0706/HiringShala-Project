@@ -1,6 +1,5 @@
 import React from "react";
 import "./BootstrapCards.css";
-import { AiFillDollarCircle } from "react-icons/ai";
 import CompanyLogoImg from "../../assets/company-logo.jpg";
 import { BsFillBuildingsFill } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";

@@ -164,16 +164,16 @@ const About = () => {
             height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-cover lg:col-span-1"
-            src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png"
-            alt="Tuple"
+            className="col-span-2 max-h-12 w-full object-cover sm:col-start-2 lg:col-span-1"
+            src="https://1.bp.blogspot.com/-N8uWKNWQlec/XV6xVl8KNtI/AAAAAAAANQA/b_wC28iV3zswtoahMtWja3uHLAKp_NwIQCLcBGAs/s1600/unnamed.png"
+            alt="SavvyCal"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-cover sm:col-start-2 lg:col-span-1"
-            src="https://1.bp.blogspot.com/-N8uWKNWQlec/XV6xVl8KNtI/AAAAAAAANQA/b_wC28iV3zswtoahMtWja3uHLAKp_NwIQCLcBGAs/s1600/unnamed.png"
-            alt="SavvyCal"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+            alt="Reform"
             width={158}
             height={48}
           />

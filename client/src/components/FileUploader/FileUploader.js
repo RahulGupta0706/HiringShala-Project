@@ -74,9 +74,9 @@ function FileUploader({ callback }) {
       .then((response) => {
           setLoading(false);
           setSuccess(true);
-          callback(false);
-    
-          // Handle successful upload separately
+          setError(false);
+          setErrorMessage("");
+          if (callback) callback(false);
           handleSuccessfulUpload(seekerId, token);
   })
 
@@ -127,7 +127,9 @@ const handleSuccessfulUpload = (seekerId, token) => {
               <a
                 href="#"
                 onClick={() => document.getElementById("fileInput").click()}
-              ></a>
+                aria-label="Choose file"
+                style={{ display: "none" }}
+              >Choose file</a>
             </label>
             <input
               type="file"
@@ -188,7 +190,9 @@ const handleSuccessfulUpload = (seekerId, token) => {
             <a
               href="#"
               onClick={() => document.getElementById("fileInput").click()}
-            ></a>
+              aria-label="Choose file"
+              style={{ display: "none" }}
+            >Choose file</a>
           </label>
           <input
             type="file"

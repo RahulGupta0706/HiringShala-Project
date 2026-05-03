@@ -136,7 +136,7 @@ const JobDescription = () => {
     jobEligibility,
     jobRequirements,
     seekersRegistered,
-    jobId,
+    // jobId,
     noOfOpenings,
     isExpired,
     jobType,

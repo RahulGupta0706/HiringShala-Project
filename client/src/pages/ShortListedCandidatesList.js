@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import fetchJobs from "../components/DashboardComponent/FeaturedJobCard/FetchJob";
 import Cookies from "js-cookie";
 import * as Constants from "../constants/String";

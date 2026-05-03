@@ -197,6 +197,7 @@ input {
 .app {
   background-color: var(--primary-color);
   background-image: var(--bg-image);
+  min-height: 100vh;
 }
 
 .footers {
