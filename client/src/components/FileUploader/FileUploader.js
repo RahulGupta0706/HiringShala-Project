@@ -124,12 +124,6 @@ const handleSuccessfulUpload = (seekerId, token) => {
                   ? selectedFile.name
                   : getFileNameFromUrl(resumeUrl)}
               </strong>
-              <a
-                href="#"
-                onClick={() => document.getElementById("fileInput").click()}
-                aria-label="Choose file"
-                style={{ display: "none" }}
-              >Choose file</a>
             </label>
             <input
               type="file"
@@ -187,12 +181,6 @@ const handleSuccessfulUpload = (seekerId, token) => {
       ) : (
         <div onDrop={handleDrop}>
           <label htmlFor="fileInput" className="choose-file-text">
-            <a
-              href="#"
-              onClick={() => document.getElementById("fileInput").click()}
-              aria-label="Choose file"
-              style={{ display: "none" }}
-            >Choose file</a>
           </label>
           <input
             type="file"
