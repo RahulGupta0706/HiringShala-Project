@@ -5,7 +5,7 @@ import { MDBTable, MDBTableHead, MDBTableBody } from "mdb-react-ui-kit";
 import swal from "sweetalert";
 import axios from "axios";
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 function GetAllEmployees() {
   const [emp, setEmp] = useState([]);

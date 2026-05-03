@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 import * as Constants from "../../../constants/String"
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 const fetchSeeker = async () => {
   try {

@@ -9,7 +9,7 @@ import { toast } from "react-hot-toast";
 import * as Constants from "../../constants/String"
 import FileUploader from "../../components/FileUploader/FileUploader";
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 const stringifiedJobList = sessionStorage.getItem("hiringShala_jobList");
 const cachedJobList = JSON.parse(stringifiedJobList);
 

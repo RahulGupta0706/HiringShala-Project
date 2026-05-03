@@ -64,7 +64,7 @@ const JobList = ({ type }) => {
   };
 
   useEffect(() => {
-    const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+    const apiUrl = process.env.REACT_APP_API_URL || "";
     const GetAllJobs = async () => {
       const stringifiedJobList = sessionStorage.getItem("hiringShala_jobList");
       var updatedJobList = JSON.parse(stringifiedJobList);

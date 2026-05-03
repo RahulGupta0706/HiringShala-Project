@@ -11,7 +11,7 @@ const token = Cookies.get(Constants.token);
     authorization: `Bearer ${token}`,
   };
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 function GetAllSeekers() {
   const [seekers, setSeeker] = useState([]);

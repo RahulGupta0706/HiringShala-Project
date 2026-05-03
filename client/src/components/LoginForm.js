@@ -9,7 +9,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import Cookies from "js-cookie";
 import * as Constants from "../constants/String"
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 const LoginForm = ({ userType }) => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({

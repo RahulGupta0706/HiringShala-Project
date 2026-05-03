@@ -8,7 +8,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import Footer from "../components/Footer/Footer";
 import LoginImg from "../components/assets/Login.png";
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 const ForgotPassword = ({userType}) => {
   const navigate = useNavigate();

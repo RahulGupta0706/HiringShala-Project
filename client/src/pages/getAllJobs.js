@@ -9,7 +9,7 @@ import {
 import axios from "axios";
 import swal from "sweetalert";
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 function GetAllJobs() {
   const navigate = useNavigate();

@@ -6,7 +6,7 @@ import Cookies from "js-cookie";
 import { toast } from "react-hot-toast";
 import * as Constants from "../../constants/String";
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 function FileUploader({ callback }) {
   const [selectedFile, setSelectedFile] = useState(null);

@@ -12,7 +12,7 @@ import Footer from "./Footer/Footer";
 import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import * as Constants from "../constants/String"
 
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const apiUrl = process.env.REACT_APP_API_URL || "";
 
 const Template = ({ title, desc1, desc2, image, formtype, userType }) => {
   const location = useLocation();
@@ -118,7 +118,7 @@ const Template = ({ title, desc1, desc2, image, formtype, userType }) => {
                 <LoginForm userType={userType} />
               )}
               <div className="my-5">
-                <GoogleOAuthProvider clientId="894607433354-muue271qb4t1mvdo8evk95i896nhdt9i.apps.googleusercontent.com">
+                <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
                   <GoogleLogin
                     size="large"
                     theme="filled_blue"

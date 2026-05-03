@@ -14,7 +14,7 @@ function generateUniqueOtp() {
 const sendOtp = async (req, res) => {
   try {
     const AWS = require("aws-sdk");
-    const ses = new AWS.SES({ region: "ap-south-1" });
+    const ses = new AWS.SES({ region: process.env.AWS_REGION || "ap-south-1" });
     const { email } = req.body;
     const otp = generateUniqueOtp();
     const emailParams = {
@@ -31,7 +31,7 @@ const sendOtp = async (req, res) => {
           Data: "Email OTP",
         },
       },
-      Source: "info@hiringshala.com",
+      Source: process.env.SES_SOURCE_EMAIL || "info@hiringshala.com",
     };
 
     try {
